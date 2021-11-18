@@ -1,0 +1,39 @@
+div {
+    border: 1px solid black;
+}
+
+.contener {
+    margin: 50px;
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 2fr;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.small_box {
+    display: grid;
+}
+
+.big_box {
+    margin: 30px;
+    display: grid;
+}
+
+.window {
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+}
+
+.window_right {
+    display: grid;
+}
+
+.bottom {
+    display: grid;
+    grid-auto-flow: column;
+}
